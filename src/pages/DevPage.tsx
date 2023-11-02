@@ -1,15 +1,13 @@
-import DevCard from "../components/DevCard";
-import gamehub from "../assets/gamehub.png";
+import { Heading } from "@chakra-ui/react";
+import DevGrid from "../components/DevGrid";
 
 const DevPage = () => {
   return (
     <>
-      <DevCard
-        name="Gamehub"
-        description="A lite version of rawg.io, a game discovery website."
-        link="/game-hub"
-        image={gamehub}
-      />
+      <Heading paddingBottom={5} color="blue.400" size="3xl">
+        front end projects
+      </Heading>
+      <DevGrid />
     </>
   );
 };

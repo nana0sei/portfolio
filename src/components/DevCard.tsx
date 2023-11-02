@@ -8,7 +8,7 @@ interface Props {
   image: string;
 }
 
-const ProjectCard = ({ name, description, link, image }: Props) => {
+const DevCard = ({ name, description, link, image }: Props) => {
   return (
     <>
       <Card>
@@ -28,4 +28,4 @@ const ProjectCard = ({ name, description, link, image }: Props) => {
   );
 };
 
-export default ProjectCard;
+export default DevCard;

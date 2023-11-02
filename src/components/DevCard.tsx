@@ -11,7 +11,7 @@ interface Props {
 const ProjectCard = ({ name, description, link, image }: Props) => {
   return (
     <>
-      <Card width="300px">
+      <Card>
         <Image src={image} />
         <CardBody>
           <Link

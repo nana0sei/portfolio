@@ -4,9 +4,10 @@ export default {
   data: [
     {
       name: "Gamehub",
-      link: "/game-hub",
       description: "A lite version of rawg.io, a game discovery website.",
       image: gamehub,
+      link: "https://game-hub-nana0sei.vercel.app/",
+      git: "https://github.com/nana0sei/game-hub",
     },
   ],
 };

@@ -13,6 +13,7 @@ const DevGrid = () => {
             description={project.description}
             image={project.image}
             link={project.link}
+            git={project.git}
           />
         ))}
       </SimpleGrid>

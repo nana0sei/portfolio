@@ -8,6 +8,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
+import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 interface Props {
@@ -31,6 +32,10 @@ const DevCard = ({ name, description, link, image, git }: Props) => {
             <Heading fontSize="2xl">{name}</Heading>
             <Text as="i">{description}</Text>
             <HStack>
+              <Link to={link} target="_blank" rel="noopener noreferrer">
+                <FiExternalLink size="25px" />
+              </Link>
+
               <Link to={git} target="_blank" rel="noopener noreferrer">
                 <AiFillGithub size="25px" />
               </Link>

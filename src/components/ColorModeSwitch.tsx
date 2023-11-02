@@ -11,7 +11,11 @@ const ColorModeSwitch = () => {
           isChecked={colorMode === "light"}
           onChange={toggleColorMode}
         />
-        {colorMode === "light" ? <BsSun /> : <BsFillMoonFill />}
+        {colorMode === "light" ? (
+          <BsSun size="20px" />
+        ) : (
+          <BsFillMoonFill size="20px" />
+        )}
       </HStack>
     </div>
   );

@@ -24,21 +24,29 @@ const DevCard = ({ name, description, link, image, git, tools }: Props) => {
   return (
     <>
       <Card>
-        <Link to={link} target="_blank" rel="noopener noreferrer">
+        {link ? (
+          <Link to={link} target="_blank" rel="noopener noreferrer">
+            <Image src={image} />
+          </Link>
+        ) : (
           <Image src={image} />
-        </Link>
+        )}
 
         <CardBody>
           <VStack spacing={2} align="flex-start">
             <HStack>
               <Heading fontSize="2xl">{name}</Heading>
-              <Link to={link} target="_blank" rel="noopener noreferrer">
-                <FiExternalLink size="25px" />
-              </Link>
+              {link && (
+                <Link to={link} target="_blank" rel="noopener noreferrer">
+                  <FiExternalLink size="25px" />
+                </Link>
+              )}
 
-              <Link to={git} target="_blank" rel="noopener noreferrer">
-                <AiFillGithub size="25px" />
-              </Link>
+              {git && (
+                <Link to={git} target="_blank" rel="noopener noreferrer">
+                  <AiFillGithub size="25px" />
+                </Link>
+              )}
             </HStack>
             <Text as="i">{description}</Text>
             <Text>

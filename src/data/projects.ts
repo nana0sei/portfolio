@@ -14,7 +14,7 @@ export default {
 
     {
       name: "spotify lite",
-      description: "work in progress. a stripped down version of spotify.",
+      description: "work in progress. a lite version of spotify.",
       image: spotify,
       link: "",
       git: "https://github.com/nana0sei/spotify-lite",

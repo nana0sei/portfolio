@@ -1,4 +1,6 @@
 import gamehub from "../assets/gamehub.png";
+import portfolio from "../assets/portfolio.png";
+
 import spotify from "../assets/spotify.png";
 
 export default {
@@ -10,6 +12,15 @@ export default {
       link: "https://game-hub-nana0sei.vercel.app/",
       git: "https://github.com/nana0sei/game-hub",
       tools: "react, typescript, chakra ui, rawg api",
+    },
+
+    {
+      name: "portfolio",
+      description: "the site you're currently on.",
+      image: portfolio,
+      link: "https://game-hub-nana0sei.vercel.app/",
+      git: "https://github.com/nana0sei/portfolio",
+      tools: "react, typescript, chakra ui",
     },
 
     {

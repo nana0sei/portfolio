@@ -17,9 +17,10 @@ interface Props {
   description: string;
   image: string;
   git: string;
+  tools: string;
 }
 
-const DevCard = ({ name, description, link, image, git }: Props) => {
+const DevCard = ({ name, description, link, image, git, tools }: Props) => {
   return (
     <>
       <Card>
@@ -29,9 +30,8 @@ const DevCard = ({ name, description, link, image, git }: Props) => {
 
         <CardBody>
           <VStack spacing={2} align="flex-start">
-            <Heading fontSize="2xl">{name}</Heading>
-            <Text as="i">{description}</Text>
             <HStack>
+              <Heading fontSize="2xl">{name}</Heading>
               <Link to={link} target="_blank" rel="noopener noreferrer">
                 <FiExternalLink size="25px" />
               </Link>
@@ -40,6 +40,10 @@ const DevCard = ({ name, description, link, image, git }: Props) => {
                 <AiFillGithub size="25px" />
               </Link>
             </HStack>
+            <Text as="i">{description}</Text>
+            <Text>
+              <Text as="b">Tools:</Text> {tools}
+            </Text>
           </VStack>
         </CardBody>
       </Card>

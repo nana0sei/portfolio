@@ -16,6 +16,7 @@ const DevGrid = () => {
               image={project.image}
               link={project.link}
               git={project.git}
+              tools={project.tools}
             />
           </HoverContainer>
         ))}

@@ -42,7 +42,7 @@ const DevCard = ({ name, description, link, image, git, tools }: Props) => {
             </HStack>
             <Text as="i">{description}</Text>
             <Text>
-              <Text as="b">Tools:</Text> {tools}
+              <Text as="b">tools:</Text> {tools}
             </Text>
           </VStack>
         </CardBody>

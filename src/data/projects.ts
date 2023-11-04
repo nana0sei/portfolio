@@ -8,7 +8,7 @@ export default {
       image: gamehub,
       link: "https://game-hub-nana0sei.vercel.app/",
       git: "https://github.com/nana0sei/game-hub",
-      tools: "React, Typescript, Chakra UI",
+      tools: "react, typescript, chakra ui",
     },
   ],
 };

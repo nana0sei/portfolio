@@ -8,9 +8,9 @@ const Introduction = () => {
           <Text>
             hi, my name is{" "}
             <Text as="i" color="yellow.400">
-              nana
+              nana.
             </Text>{" "}
-            and i'm a{" "}
+            i'm a{" "}
             <Text as="i" color="blue.400">
               front end developer{" "}
             </Text>{" "}

@@ -1,11 +1,12 @@
-import { Heading, Text, VStack } from "@chakra-ui/react";
+import { Heading, Text, VStack, Image } from "@chakra-ui/react";
 import DevGrid from "../components/DevGrid";
+import devtitle from "../assets/devtitle.png";
 
 const DevPage = () => {
   return (
     <>
       <VStack spacing={2} align="flex-start">
-        <Heading size="2xl">front end projects</Heading>
+        <Image src={devtitle} width="400px" />
         <Text>this is a list of my front end development projects.</Text>
         <DevGrid />
       </VStack>

@@ -14,7 +14,7 @@ const Introduction = () => {
             <Text as="i" color="blue.400">
               front end developer{" "}
             </Text>{" "}
-            and{" "}
+            and a{" "}
             <Text as="i" color="blue.400">
               digital artist.
             </Text>

@@ -18,7 +18,7 @@ export default {
       name: "portfolio",
       description: "the site you're currently on.",
       image: portfolio,
-      link: "https://game-hub-nana0sei.vercel.app/",
+      link: "https://nana0sei.vercel.app/",
       git: "https://github.com/nana0sei/portfolio",
       tools: "react, typescript, chakra ui",
     },

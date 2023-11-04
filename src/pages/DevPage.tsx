@@ -1,4 +1,4 @@
-import { Heading, Text, VStack, Image } from "@chakra-ui/react";
+import { Text, VStack, Image } from "@chakra-ui/react";
 import DevGrid from "../components/DevGrid";
 import devtitle from "../assets/devtitle.png";
 

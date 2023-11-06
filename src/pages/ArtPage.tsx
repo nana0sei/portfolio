@@ -1,12 +1,15 @@
-import { VStack, Image, Text } from "@chakra-ui/react";
+import { VStack, Image, Text, Center } from "@chakra-ui/react";
 import arttitle from "../assets/arttitle.png";
 import ArtGrid from "../components/ArtGrid";
 
 const ArtPage = () => {
   return (
     <>
-      <VStack spacing={2} align="flex-start">
+      <Center>
         <Image src={arttitle} width="400px" />
+      </Center>
+
+      <VStack spacing={2} align="flex-start">
         <Text>a collection of my commissioned and personal art.</Text>
         <ArtGrid />
       </VStack>

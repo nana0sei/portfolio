@@ -3,7 +3,8 @@ import ColorModeSwitch from "./ColorModeSwitch";
 import logoW from "../assets/logoW.png";
 import logoB from "../assets/logoB.png";
 import { Link } from "react-router-dom";
-import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
   const { colorMode } = useColorMode();
@@ -35,11 +36,11 @@ const Navbar = () => {
             <AiFillGithub size="20px" />
           </Link>
           <Link
-            to="https://instagram.com/nana0sei/"
+            to="https://x.com/nana0sei/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <AiOutlineInstagram size="20px" />
+            <FaXTwitter size="20px" />
           </Link>
           <ColorModeSwitch />
         </HStack>

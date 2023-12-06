@@ -14,21 +14,21 @@ export default {
     },
 
     {
-      name: "portfolio",
-      description: "the site you're currently on.",
-      image: portfolio,
-      link: "https://nana0sei.vercel.app/",
-      git: "https://github.com/nana0sei/portfolio",
-      tools: "react, typescript",
-    },
-
-    {
       name: "spotify lite",
       description: "search, browse featured playlists and play previews.",
       image: spotify,
       link: "https://spotify-lite.vercel.app/",
       git: "https://github.com/nana0sei/spotify-lite",
       tools: "react, typescript, spotify api",
+    },
+
+    {
+      name: "portfolio",
+      description: "the site you're currently on.",
+      image: portfolio,
+      link: "https://nana0sei.vercel.app/",
+      git: "https://github.com/nana0sei/portfolio",
+      tools: "react, typescript",
     },
   ],
 };

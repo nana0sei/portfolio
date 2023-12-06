@@ -10,10 +10,7 @@ const DevPage = () => {
       </Center>
 
       <VStack spacing={2} align="flex-start">
-        <Text>
-          this is a list of my front end development projects. i usually work
-          with react and typescript.
-        </Text>
+        <Text>this is a list of my front end development projects.</Text>
         <DevGrid />
       </VStack>
     </>

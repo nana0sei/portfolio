@@ -1,6 +1,5 @@
 import gamehub from "../assets/gamehub.png";
 import portfolio from "../assets/portfolio.png";
-
 import spotify from "../assets/spotify.png";
 
 export default {
@@ -11,7 +10,7 @@ export default {
       image: gamehub,
       link: "https://game-hub-nana0sei.vercel.app/",
       git: "https://github.com/nana0sei/game-hub",
-      tools: "react, typescript, chakra ui, rawg api",
+      tools: "react, typescript, rawg api",
     },
 
     {
@@ -20,16 +19,16 @@ export default {
       image: portfolio,
       link: "https://nana0sei.vercel.app/",
       git: "https://github.com/nana0sei/portfolio",
-      tools: "react, typescript, chakra ui",
+      tools: "react, typescript",
     },
 
     {
       name: "spotify lite",
-      description: "work in progress. a lite version of spotify.",
+      description: "search, browse featured playlists and play previews.",
       image: spotify,
-      link: "",
+      link: "https://spotify-lite.vercel.app/",
       git: "https://github.com/nana0sei/spotify-lite",
-      tools: "react, typescript, chakra ui, spotify api",
+      tools: "react, typescript, spotify api",
     },
   ],
 };

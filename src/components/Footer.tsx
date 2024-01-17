@@ -5,11 +5,9 @@ const Footer = () => {
 
   return (
     <>
-      <Box position="relative" padding="10">
+      <Box pos="relative" p="10">
         <Divider />
-        <AbsoluteCenter bg="white" px="4">
-          © {year} Nana Osei
-        </AbsoluteCenter>
+        <AbsoluteCenter px="4">© {year} Nana Osei</AbsoluteCenter>
       </Box>
     </>
   );

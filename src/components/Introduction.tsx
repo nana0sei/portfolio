@@ -12,7 +12,7 @@ const Introduction = () => {
             </Text>{" "}
             i'm a{" "}
             <Text as="i" color="blue.400">
-              front end developer{" "}
+              full stack developer{" "}
             </Text>{" "}
             and a{" "}
             <Text as="i" color="blue.400">

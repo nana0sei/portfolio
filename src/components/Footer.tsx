@@ -14,7 +14,7 @@ const Footer = () => {
         <AbsoluteCenter px="4">© {year} Nana Osei</AbsoluteCenter>
       </Box>
       <Center>
-        <HStack spacing={2}>
+        <HStack spacing={2} pb={2}>
           <Link
             to="mailto:frimpongnanao@gmail.com"
             target="_blank"

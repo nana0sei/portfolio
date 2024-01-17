@@ -14,15 +14,15 @@ export default {
       description:
         "tribe of god x sony music publishing (2024). designed with jude dontoh and gregory abloh",
     },
-    { image: onfire, description: "'on fire/cool me down' for saezn (2023)" },
-    { image: ray, description: "'refrain' for new world ray (2023)" },
-    { image: rita, description: "twitch emotes for lady legasus (2023)" },
+    { image: onfire, description: "'on fire/cool me down' - saezn (2023)" },
+    { image: ray, description: "refrain - new world ray (2023)" },
+    { image: rita, description: "twitch emotes - lady legasus (2023)" },
     {
       image: sony,
       description: "sony music publishing (2023). designed with jude dontoh",
     },
     { image: krpt, description: "krpt doberman tee (2023)" },
-    { image: city, description: "'city of angels' for saezn (2022)" },
+    { image: city, description: "city of angels - saezn (2022)" },
     { image: casestody, description: "casestody gameboy case (2022)" },
   ],
 };

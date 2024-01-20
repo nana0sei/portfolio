@@ -1,5 +1,4 @@
 import gamehub from "../assets/gamehub.png";
-import portfolio from "../assets/portfolio.png";
 import spotify from "../assets/spotify.png";
 
 export default {
@@ -20,15 +19,6 @@ export default {
       link: "https://spotify-lite.vercel.app/",
       git: "https://github.com/nana0sei/spotify-lite",
       tools: "react, typescript, spotify api",
-    },
-
-    {
-      name: "portfolio",
-      description: "the site you're currently on.",
-      image: portfolio,
-      link: "https://nana0sei.vercel.app/",
-      git: "https://github.com/nana0sei/portfolio",
-      tools: "react, typescript",
     },
   ],
 };

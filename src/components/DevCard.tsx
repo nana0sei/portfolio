@@ -10,6 +10,7 @@ import {
 import { AiFillGithub } from "react-icons/ai";
 import { FiExternalLink } from "react-icons/fi";
 import { Link } from "react-router-dom";
+import placeholder from "../assets/placeholder.png";
 
 interface Props {
   link: string;
@@ -26,10 +27,10 @@ const DevCard = ({ name, description, link, image, git, tools }: Props) => {
       <Card>
         {link ? (
           <Link to={link} target="_blank" rel="noopener noreferrer">
-            <Image src={image} />
+            <Image src={image ? image : placeholder} />
           </Link>
         ) : (
-          <Image src={image} />
+          <Image src={image ? image : placeholder} />
         )}
 
         <CardBody>

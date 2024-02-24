@@ -23,6 +23,15 @@ export default {
     },
 
     {
+      name: "vidly",
+      description: "rest api and tests for an imaginary movie rental service.",
+      image: "",
+      link: "",
+      git: "https://github.com/nana0sei/vidly",
+      tools: "node.js, express, mongodb, jest",
+    },
+
+    {
       name: "portfolio",
       description: "the website you're currently on.",
       image: portfolio,

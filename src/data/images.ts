@@ -1,11 +1,11 @@
-import city from "../assets/art/city.jpg";
-import onfire from "../assets/art/onfire.jpg";
-import sony from "../assets/art/sony.jpg";
-import rita from "../assets/art/rita.jpg";
-import ray from "../assets/art/ray.jpg";
-import krpt from "../assets/art/krpt.jpg";
-import casestody from "../assets/art/casestody.jpg";
-import sony24 from "../assets/art/sony24.jpg";
+import city from "../assets/art/city.webp";
+import onfire from "../assets/art/onfire.webp";
+import sony from "../assets/art/sony23.webp";
+import rita from "../assets/art/ritalucia.webp";
+import ray from "../assets/art/ray.webp";
+import krpt from "../assets/art/korrupt.webp";
+import casestody from "../assets/art/casestody.webp";
+import sony24 from "../assets/art/sony24.webp";
 
 export default {
   data: [

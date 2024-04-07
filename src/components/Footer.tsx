@@ -7,7 +7,7 @@ import {
   useColorMode,
 } from "@chakra-ui/react";
 import { AiFillGithub } from "react-icons/ai";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { Link } from "react-router-dom";
 
@@ -43,11 +43,11 @@ const Footer = () => {
           </Link>
 
           <Link
-            to="https://x.com/nana0sei/"
+            to="https://instagram.com/nana0sei/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaXTwitter size="25px" />
+            <FaInstagram size="25px" />
           </Link>
         </HStack>
       </Center>

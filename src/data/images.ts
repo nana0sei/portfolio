@@ -6,9 +6,15 @@ import ray from "../assets/art/ray.webp";
 import krpt from "../assets/art/korrupt.webp";
 import casestody from "../assets/art/casestody.webp";
 import sony24 from "../assets/art/sony24.webp";
+import gt from "../assets/art/gt-01.webp";
 
 export default {
   data: [
+    {
+      image: gt,
+      description:
+        "'ghost town' - solis4evr (2024). additional character designs by wooshyworld",
+    },
     {
       image: sony24,
       description:

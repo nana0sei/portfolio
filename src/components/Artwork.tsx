@@ -19,13 +19,13 @@ const Artwork = ({ img, description }: Props) => {
   return (
     <>
       <VStack onClick={onOpen}>
-        <Image src={img} w="500px" />
+        <Image src={img} />
         <Text size="sm" as="i">
           {description}
         </Text>
       </VStack>
 
-      <Modal isOpen={isOpen} onClose={onClose} size="xl" isCentered>
+      <Modal isOpen={isOpen} onClose={onClose} size="3xl" isCentered>
         <ModalOverlay />
         <ModalContent>
           <ModalCloseButton />

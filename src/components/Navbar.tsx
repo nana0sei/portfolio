@@ -14,7 +14,6 @@ const Navbar = () => {
       pos="fixed"
       w="100%"
       top={0}
-      zIndex={9999}
       bg={colorMode === "dark" ? "gray.800" : "white"}
     >
       <Link to="/">

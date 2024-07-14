@@ -13,6 +13,7 @@ const Navbar = () => {
       padding="10px"
       pos="fixed"
       w="100%"
+      zIndex={10}
       top={0}
       bg={colorMode === "dark" ? "gray.800" : "white"}
     >

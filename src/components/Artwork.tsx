@@ -8,6 +8,7 @@ import {
   useDisclosure,
   VStack,
 } from "@chakra-ui/react";
+import gt from "../assets/art/gt-01.webp";
 
 interface Props {
   img: string;
@@ -27,7 +28,7 @@ const Artwork = ({ img, description }: Props) => {
 
       <Modal isOpen={isOpen} onClose={onClose} size="3xl" isCentered>
         <ModalOverlay />
-        <ModalContent>
+        <ModalContent maxW={img === gt ? "full" : "3xl"}>
           <ModalCloseButton />
           <Image src={img} />
         </ModalContent>

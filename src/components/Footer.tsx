@@ -17,7 +17,14 @@ const Footer = () => {
   const year = new Date().getFullYear();
 
   return (
-    <>
+    <Box
+      pos="fixed"
+      bottom={0}
+      w="full"
+      mt={5}
+      zIndex={10}
+      bg={colorMode === "dark" ? "gray.800" : "white"}
+    >
       <Box pos="relative" px="5" py={5}>
         <Divider />
         <AbsoluteCenter px="4" bg={colorMode === "dark" ? "gray.800" : "white"}>
@@ -51,7 +58,7 @@ const Footer = () => {
           </Link>
         </HStack>
       </Center>
-    </>
+    </Box>
   );
 };
 

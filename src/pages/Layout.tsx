@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <>
       <Navbar />
-      <Box paddingX={5} py="70px">
+      <Box p={5}>
         <Outlet />
       </Box>
       <Footer />

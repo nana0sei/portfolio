@@ -5,6 +5,11 @@ const Introduction = () => {
     <>
       <VStack spacing={2} textAlign="center">
         <Heading size="3xl">
+          i am working on a new version of this website
+        </Heading>
+
+        <Text as="h1">you can still check out my work on my socials!</Text>
+        {/* <Heading size="3xl">
           <Text>
             hi, my name is{" "}
             <Text as="i" color="yellow.400">
@@ -24,7 +29,7 @@ const Introduction = () => {
         <Text as="h1">
           click on any of the categories below to check out my work in each
           field!
-        </Text>
+        </Text> */}
       </VStack>
     </>
   );

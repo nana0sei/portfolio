@@ -18,8 +18,8 @@ const Footer = () => {
 
   return (
     <Box
-      // pos="fixed"
-      // bottom={0}
+      pos="fixed"
+      bottom={0}
       w="full"
       zIndex={10}
       bg={colorMode === "dark" ? "gray.800" : "white"}

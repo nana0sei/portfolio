@@ -1,4 +1,4 @@
-import { Image, Center, Box } from "@chakra-ui/react";
+import { Image, Center } from "@chakra-ui/react";
 import arttitle from "../assets/arttitle.png";
 import ArtGrid from "../components/ArtGrid";
 

@@ -5,7 +5,7 @@ import devtitle from "../assets/devtitle.png";
 const DevPage = () => {
   return (
     <>
-      <Center pb={2}>
+      <Center pb={2} mt="50px">
         <Image src={devtitle} width="400px" />
       </Center>
 

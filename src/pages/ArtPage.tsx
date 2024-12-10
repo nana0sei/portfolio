@@ -5,7 +5,7 @@ import ArtGrid from "../components/ArtGrid";
 const ArtPage = () => {
   return (
     <>
-      <Center pb={2}>
+      <Center pb={2} mt="50px">
         <Image src={arttitle} width="300px" />
       </Center>
 
